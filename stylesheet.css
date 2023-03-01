@@ -124,3 +124,32 @@ html, body, header, main, section, article, aside, footer {
         color:#f9f5b8
     }
 }
+
+@media only screen and (max-width: 580px) {
+    body {
+      background-color: #FFF6C3;
+    }
+    header{
+        background-color:#850000;
+        color:#FFDB89;
+    }
+    section{
+        background-color:#FFDB89 ;
+        color:#850000;
+        paragraph: 2;
+    }
+    p{
+        column-count: 2;
+        color:#850000;
+    }
+    h2{
+        color:#850000;
+    }
+    footer{
+        background-color:#850000;
+        color:#FFDB89;
+    }
+    p1{
+        color:#FFDB89;
+    }
+}
